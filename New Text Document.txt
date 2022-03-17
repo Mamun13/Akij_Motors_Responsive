@@ -1,0 +1,14 @@
+font-family: 'Poppins', sans-serif;
+font-family: 'Rubik', sans-serif;
+
+Ponkhiraj 1000 KG Diesel
+Ponkhiraj 1200 KG Diesel
+Druti 1000 KG Petrol/CNG/LPG
+Durjoy 775 KG Diesel
+Druti 1000 KG Petrol/CNG/LPG
+Bijoy 1.5 Ton Diesel
+Borak 3.0 Ton Diesel
+Rof Rof 5 Ton
+Rustom (4x2) Cargo Truck
+Cargo Truck (4x2) 7.0 Ton
+Cargo Truck (4x2) 10 Ton

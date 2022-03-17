@@ -1,0 +1,22 @@
+@media (min-width: 576px) and (max-width: 767px){
+
+}
+@media (min-width: 768px) and (max-width: 991px){
+
+}
+@media (min-width: 992px) and (max-width: 1200px){
+    header nav .container-fluid .navbar-brand {
+        margin-left: -50px;
+        margin-right: -67px;
+    }
+    section .vehicle1 .car1 .image_width{
+        width: 240px;
+    }
+    section .vehicle1 .car2 .image_width{
+        width: 240px;
+    }
+    section .vehicle1 .car3 .image_width{
+        width: 240px;
+    } 
+}
+

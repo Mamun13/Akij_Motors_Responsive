@@ -1,0 +1,459 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+ul,ol{
+    list-style: none;
+}
+a,a:hover,a:focus{
+    text-decoration: none;
+    outline: 0px;
+}
+a{
+    text-decoration: none;
+}
+ h1,h2,h3,h4,h5,h6,p,ol,ul,li{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+} 
+body {
+    font-family: 'Nunito', sans-serif;
+    overflow-x: hidden;
+    width: 100%;
+    
+} 
+section nav .container-fluid{
+    line-height: 80px;
+}
+section nav .container-fluid .navbar-nav .nav-item .nav-link{
+    text-transform: uppercase;
+    color: red;
+    font-family: 'Poppins', sans-serif;
+    padding-left: 10px;
+}
+section nav .container-fluid .navbar-nav .nav-item  .nav-link:hover{
+    color: rgb(119, 12, 12);
+}
+section nav .container-fluid a .image{
+    width: 277px;
+    height: 58px;
+    margin-left: 80px;
+}
+
+header nav .navbar-nav .nav-item .nav-link{
+    font-size: 13px;
+    color: white;
+}
+header nav .container-fluid .navbar-brand{
+    padding-left: 70px;
+    padding-right: 120px;
+}
+
+/* vehicle part start */
+section .container .h2{
+    text-transform: capitalize;
+    color: #14478D;
+    font-weight: 700;
+    padding-top: 28px;
+    padding-bottom: 28px;
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+}
+section .details{
+    width: 16%;
+    background: #005AA7;
+    margin-right: 1.5%;
+    margin-left: 2%;
+}
+
+
+
+
+
+
+
+section .vehicle1{
+    width: 25%;
+    margin-right: 1.5%;
+    padding-bottom: 20px;
+    /* background: #ccc; */
+}
+section .vehicle1 img{
+    padding: 20px 0px;
+    background: #ccc;
+}
+section .vehicle1 .car1{
+    background: #ccc;
+    border-radius: 10px;
+    margin-bottom: 30px;
+ }
+ section .vehicle1 .car1 img{
+    width: 284px;
+}
+section .vehicle1 .car2 img{
+    width: 284px;
+}
+section .vehicle1 .car3 img{
+    width: 284px;
+}
+ section .vehicle1 .car1 .car_de{
+    font-weight: 700;
+    margin-top: 20px;
+    font-size: 16px;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 20px;
+ }
+ section .vehicle1 .car1 .car_de a{
+    font-size: 16px;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+ }
+
+ section .vehicle1 .car2{
+    background: #ccc;
+    border-radius: 10px;
+    margin-bottom: 30px;
+ }
+ section .vehicle1 .car2 .car_de{
+    font-weight: 700;
+    margin-top: 20px;
+    font-size: 16px;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 20px;
+ }
+ section .vehicle1 .car2 .car_de a{
+    font-size: 16px;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+ }
+ section .vehicle1 .car3{
+    background: #ccc;
+    border-radius: 10px;
+ }
+ section .vehicle1 .car3 .car_de{
+    font-weight: 700;
+    margin-top: 20px;
+    font-size: 16px;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 20px;
+ }
+ section .vehicle1 .car3 .car_de a{
+    font-size: 16px;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+ }
+#vehicles .details .category{
+    padding-top: 28px;
+    font-family: 'Poppins', sans-serif; 
+    color: white;
+    text-transform: uppercase;
+    padding-left: 32px;
+    padding-bottom: 20px;
+}
+#vehicles .details ul li .vehicle_cate{
+    font-family: 'Poppins', sans-serif; 
+    color: white;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+#vehicles .details ul li .all{
+    font-family: 'Poppins', sans-serif; 
+    color: white;
+    text-transform: capitalize;
+    padding-bottom: 28px;
+}
+/* vehicle part ends  */
+
+/* duty_truck part start  */
+section .container .duty_truck{
+    font-size: 2.5rem;
+    padding-left: 100px;
+    padding-top: 107px;
+    padding-bottom: 50px;
+    color: black;
+    font-weight: 700;
+}
+section .container .duty_image{
+    margin-left: 80px;
+}
+section .container .duty_details{
+    margin-left: 80px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+    padding-top: 10px;
+}
+section .container .duty_image2{
+    margin-left: 50px;
+}
+section .container .duty_details2{
+    margin-left: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+    padding-top: 10px;
+}
+section .container .duty_image3{
+    margin-left: 20px;
+}
+section .container .duty_details3{
+    margin-left: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+/* duty_truck part ends */
+
+/* truck model part start */
+#truck_model{
+    background: url(../images/background.png)no-repeat center;
+    background-size: cover;
+}
+#truck_model .container-fluid .truck_model{
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+#truck_model .container-fluid h2{
+    color: white;
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+#truck_model .container-fluid p{
+    color: white;
+    margin-bottom: 20px;
+}
+#truck_model .container-fluid a{
+    background: red;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    padding: 8px 30px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+/* truck model part end */
+
+/* Diesel_model part starts */
+#Diesel_model .container-fluid h3{
+    padding-left: 110px;
+    padding-top: 100px;
+    padding-bottom: 30px;
+    color: black;
+    font-size: 22px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+#Diesel_model .container-fluid a span{
+    font-size: 16px;
+    color: black;
+}
+#Diesel_model .container-fluid a {
+    font-size: 16px;
+    color: black;
+    padding-left: 100px;
+    display:inline-block;
+}
+#Diesel_model .container-fluid button{
+    background: red;
+    text-transform: capitalize;
+    border-radius: 20px;
+    margin-left: 110px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 8px 30px;
+}
+#Diesel_model .container-fluid .diesel_truk{
+    margin-top: 200px;
+}
+/* Diesel_model part ends */
+
+/* Truck_name part starts */
+#Truck_name {
+    background: url(../images/image.517bfd16.png)no-repeat center;
+    background-size: cover;
+}
+#Truck_name .container-fluid .akij_truck{
+    color: white;
+    font-size: 40px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 180px;
+    padding-bottom: 180px;
+}
+/* Truck_name part ends */
+
+/* Blog part starts */
+#Blog .container-fluid .blog{
+    color: #1b4d91;
+    font-size: 40px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+#Blog .container-fluid .blog_post{
+    background: #fb5d5e;
+    padding: 15px 0px;
+    margin: 0px 590px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    transform: skewX(-30deg);
+    margin-bottom: 40px;
+}
+#Blog .container-fluid .news img{
+    width: 100%;
+    height: 250px;
+    padding-left: 15px;
+}
+#Blog .container-fluid .news .news_header{
+    text-align: center;
+    color: #1b4d91;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+#Blog .container-fluid .news .news_des{
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 40px;
+}
+/* Blog part ends */
+
+/* footer part starts */
+#footer{
+    background: black;
+    padding: 50px;
+}
+#footer .container-fluid .footer_img{
+    padding-top: 20px;
+    width: 100%;
+}
+#footer .container-fluid .iconpart{
+    font-size: 16px;
+    color: white;
+    border: 1px solid #1b4d91;
+    border-radius: 50%;
+    padding: 10px 15px;
+    margin-left: 35px;
+    margin-bottom: 20px;
+    background:#1b4d91;
+    
+    margin-right: 10px;
+}
+#footer .container-fluid .icon{
+    font-size: 16px;
+    color: white;
+    border: 1px solid #1b4d91;
+    border-radius: 50%;
+    padding: 10px 15px;
+    margin-right: 10px;
+    background:#1b4d91;
+}
+#footer .container-fluid h6{
+    padding-top: 45px;
+    padding-left: 29px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: white;
+    padding-bottom: 15px;
+}
+#footer .container-fluid ul li .footer_list{
+    text-transform: capitalize;
+    color: white;
+    font-size: 16px;
+    padding-bottom: 10px;
+    transition: all linear 0.3s;
+}
+#footer .container-fluid ul li .footer_list:hover{
+    color: #fb5d5e;
+}
+/* footer part ends */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
