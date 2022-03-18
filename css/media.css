@@ -1,5 +1,24 @@
 @media (min-width: 576px) and (max-width: 767px){
-
+    section .vehicle1 .car1 .image_width{
+        width: 135px;
+        padding-bottom: 0px;
+    }
+    section .vehicle1 .car2 .image_width{
+        width: 135px;
+        padding-bottom: 0px;
+    }
+    section .vehicle1 .car3 .image_width{
+        width: 135px;
+        padding-bottom: 0px;
+    }
+    #vehicles .details ul {
+        padding-left: 2px;
+        font-size: 8px;
+    }
+    #vehicles .details ul li a {
+        font-size: 8px;
+         margin-left: 0px; 
+    }
 }
 @media (min-width: 768px) and (max-width: 991px){
     section nav .container-fluid a .image {
