@@ -40,21 +40,25 @@ section nav .container-fluid .navbar-nav .nav-item .nav-link{
 section nav .container-fluid .navbar-nav .nav-item  .nav-link:hover{
     color: rgb(119, 12, 12);
 }
-section nav .container-fluid a .image{
+section nav .container-fluid a img{
     width: 277px;
     height: 58px;
     margin-left: 80px;
 }
-
-header nav .navbar-nav .nav-item .nav-link{
+ header nav .navbar-nav .nav-item .nav-link{
     font-size: 13px;
     color: white;
 }
-header nav .container-fluid .navbar-brand{
+
+#sec_nav nav .container-fluid .logo{
     padding-left: 70px;
     padding-right: 120px;
+    font-size: 15px;
 }
-
+/* #sec_nav nav .container-fluid .navbar-nav .nav-item  .list{
+    font-size: 13px;
+    color: white;
+}  */
 /* vehicle part start */
 section .container .h2{
     text-transform: capitalize;
@@ -71,6 +75,9 @@ section .details{
     margin-right: 1.5%;
     margin-left: 2%;
 }
+
+
+
 
 
 
@@ -156,59 +163,53 @@ section .vehicle1 .car3 img{
     font-family: 'Poppins', sans-serif; 
     color: white;
     text-transform: uppercase;
-    padding-left: 32px;
+    padding-left: 20px;
     padding-bottom: 20px;
 }
-#vehicles .details ul li .vehicle_cate{
+#vehicles .details ul li a{
     font-family: 'Poppins', sans-serif; 
     color: white;
     font-size: 14px;
     text-transform: capitalize;
+    margin-left: -8px;
+    
+    
 }
-#vehicles .details ul li .all{
-    font-family: 'Poppins', sans-serif; 
-    color: white;
-    text-transform: capitalize;
-    padding-bottom: 28px;
-}
+
 /* vehicle part ends  */
 
 /* duty_truck part start  */
-section .container .duty_truck{
+#duty_truck .container .duty{
     font-size: 2.5rem;
-    padding-left: 100px;
     padding-top: 107px;
     padding-bottom: 50px;
     color: black;
     font-weight: 700;
 }
-section .container .duty_image{
-    margin-left: 80px;
+#duty_truck .container .duty_image{
+    width: 284px;
 }
-section .container .duty_details{
-    margin-left: 80px;
+#duty_truck .container .duty_image2{
+    width: 284px;
+}
+#duty_truck .container .duty_image3{
+    width: 284px;
+}
+#duty_truck .container .duty_details{
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
     font-weight: 600;
     color: black;
     padding-top: 10px;
 }
-section .container .duty_image2{
-    margin-left: 50px;
-}
-section .container .duty_details2{
-    margin-left: 50px;
+#duty_truck .container .duty_details2{
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
     font-weight: 600;
     color: black;
     padding-top: 10px;
 }
-section .container .duty_image3{
-    margin-left: 20px;
-}
-section .container .duty_details3{
-    margin-left: 20px;
+#duty_truck .container .duty_details3{
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
     font-weight: 600;
@@ -288,7 +289,7 @@ section .container .duty_details3{
     background: url(../images/image.517bfd16.png)no-repeat center;
     background-size: cover;
 }
-#Truck_name .container-fluid .akij_truck{
+#Truck_name .container-fluid .akij_truck h1{
     color: white;
     font-size: 40px;
     font-weight: 600;
@@ -329,7 +330,7 @@ section .container .duty_details3{
     padding-top: 40px;
     padding-bottom: 20px;
 }
-#Blog .container-fluid .news .news_des{
+#Blog .container-fluid .news p{
     text-align: center;
     color: black;
     font-size: 20px;
@@ -353,19 +354,17 @@ section .container .duty_details3{
     border: 1px solid #1b4d91;
     border-radius: 50%;
     padding: 10px 15px;
-    margin-left: 35px;
-    margin-bottom: 20px;
     background:#1b4d91;
     
-    margin-right: 10px;
+    margin-right: 5px;
 }
-#footer .container-fluid .icon{
+#footer .container-fluid .icon i{
     font-size: 16px;
     color: white;
     border: 1px solid #1b4d91;
     border-radius: 50%;
     padding: 10px 15px;
-    margin-right: 10px;
+    margin-right: 5px;
     background:#1b4d91;
 }
 #footer .container-fluid h6{

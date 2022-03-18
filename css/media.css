@@ -2,12 +2,57 @@
 
 }
 @media (min-width: 768px) and (max-width: 991px){
-
+    section nav .container-fluid a .image {
+        width: 250px;
+        margin-left: 11px;
+    }
+    header nav .container-fluid .navbar-brand {
+        font-size: 16px;
+        margin-left: -60px;
+        margin-right: -81px;
+    }
+    #sec_nav nav .container-fluid .navbar-nav .nav-item  .list {
+        font-size: 9px;
+    }
+    section .vehicle1 .car1 .image_width{
+        width: 175px;
+        padding-bottom: 0px;
+    }
+    section .vehicle1 .car2 .image_width{
+        width: 175px;
+        padding-bottom: 0px;
+    }
+    section .vehicle1 .car3 .image_width{
+        width: 175px;
+        padding-bottom: 0px;
+    }
+    #duty_truck .container .duty_truck{
+        font-size: 35px;
+    }
+    #truck_model .container-fluid h2 {
+        margin-top: -88px;
+        padding-left: 30px;
+    }
+    #truck_model .container-fluid p {
+        margin-left: 32px;
+    }
+    #truck_model .container-fluid a {
+        margin-left: 32px;
+    }
+    #Diesel_model .container-fluid .diesel_truk {
+        margin-top: 50px;
+        margin-left: 90px;
+    }
+    
 }
 @media (min-width: 992px) and (max-width: 1200px){
     header nav .container-fluid .navbar-brand {
         margin-left: -50px;
         margin-right: -67px;
+    }
+    #Truck_name .container-fluid .akij_truck h1 {
+        margin-bottom: -90px;
+        margin-top: -90px;
     }
     section .vehicle1 .car1 .image_width{
         width: 240px;
@@ -18,5 +63,33 @@
     section .vehicle1 .car3 .image_width{
         width: 240px;
     } 
+    #footer .container-fluid .iconpart {
+        
+        margin-left: 0px;
+    }
+    #footer .container-fluid .icon i {
+        padding: 5px 10px;
+    }
+    #Diesel_model .container-fluid .diesel_truk {
+        margin-left: -50px;
+    }
+    #truck_model .container-fluid .truck_model {
+        padding-top: 76px;
+    }
+    h1.duty_truck{
+        text-align: center;
+    }
+    #footer .container-fluid .icon {
+        padding: 8px 14px;
+        margin-right: 1px;
+    }
+    #footer .container-fluid .icon i {
+        padding: 8px 14px;
+        margin-right: -26px;
+        margin-bottom: 12px;
+    }
+    #Blog .container-fluid .news .news_des {
+        font-size: 15px;
+    }
 }
 
