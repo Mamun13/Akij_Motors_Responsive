@@ -19,6 +19,42 @@
         font-size: 8px;
          margin-left: 0px; 
     }
+    #Truck_name .container-fluid .akij_truck h1 {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    #Truck_name .container-fluid .akij_truck h1 {
+        margin-top: -66px;
+        margin-bottom: -60px;
+    }
+    #Diesel_model .container-fluid .diesel_truk {
+        margin-left: 65px;
+    }
+    #Blog .container-fluid .news img {
+        margin-left: -15px;
+    }
+    #duty_truck .container .duty_image {
+        margin-left: 120px;
+    }
+    #duty_truck .container .duty_image2 {
+        margin-left: 120px;
+    }
+    #duty_truck .container .duty_image3 {
+        margin-left: 120px;
+    }
+    #duty_truck .container .duty_details {
+        margin-left: 120px;
+        margin-bottom: 25px;
+    }
+    #duty_truck .container .duty_details2 {
+        margin-left: 120px;
+        margin-bottom: 25px;
+    }
+    #duty_truck .container .duty_details3 {
+        margin-left: 120px;
+        margin-bottom: 25px;
+    }
+
 }
 @media (min-width: 768px) and (max-width: 991px){
     section nav .container-fluid a .image {
@@ -61,6 +97,10 @@
     #Diesel_model .container-fluid .diesel_truk {
         margin-top: 50px;
         margin-left: 90px;
+    }
+    #duty_truck .container .duty_image {
+        width: 284px;
+        box-sizing: border-box;
     }
     
 }

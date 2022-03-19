@@ -281,6 +281,7 @@ section .vehicle1 .car3 img{
 }
 #Diesel_model .container-fluid .diesel_truk{
     margin-top: 200px;
+    width: 75%;
 }
 /* Diesel_model part ends */
 
@@ -289,7 +290,7 @@ section .vehicle1 .car3 img{
     background: url(../images/image.517bfd16.png)no-repeat center;
     background-size: cover;
 }
-#Truck_name .container-fluid .akij_truck h1{
+#Truck_name .container-fluid .akij_truck .akij_truc{
     color: white;
     font-size: 40px;
     font-weight: 600;
@@ -311,7 +312,7 @@ section .vehicle1 .car3 img{
 #Blog .container-fluid .blog_post{
     background: #fb5d5e;
     padding: 15px 0px;
-    margin: 0px 590px;
+    margin: 0px 555px;
     color: white;
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
