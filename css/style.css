@@ -28,7 +28,26 @@ body {
     width: 100%;
     
 } 
-section nav .container-fluid{
+#manubar{
+    background: #fff;
+}
+#manubar .container .logo_img{
+    width: 284px;
+    line-height: 100px;
+}
+
+#manubar .container .manuitem ul li{
+    float: right;
+    line-height: 100px;
+}
+#manubar .container .manuitem ul li a{
+    padding: 0px 15px;
+    text-transform: uppercase;
+    color: #fb5d5e;
+    
+    font-family: 'Poppins', sans-serif;
+}
+/* section nav .container-fluid{
     line-height: 80px;
 }
 section nav .container-fluid .navbar-nav .nav-item .nav-link{
@@ -48,7 +67,7 @@ section nav .container-fluid a img{
  header nav .navbar-nav .nav-item .nav-link{
     font-size: 13px;
     color: white;
-}
+} */
 
 #sec_nav nav .container-fluid .logo{
     padding-left: 70px;
@@ -416,13 +435,17 @@ section .vehicle1 .car3 img{
     font-size: 18px;
     background: none;
     border: none;
-    box-shadow: 0;
     padding-left: 76px;
     padding-top: 19px;
     font-family: 'Poppins', sans-serif;
 }
+
 .btn {
      padding: 0rem 0rem; 
+}
+.btn:focus {
+	outline: 0;
+	box-shadow: 0 0 0 .25rem rgba(0,0,0,0);
 }
 .btn-check:focus+.btn-secondary, .btn-secondary:focus {
     box-shadow: 0;

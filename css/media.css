@@ -1,4 +1,7 @@
 @media (min-width: 576px) and (max-width: 767px){
+    #manubar .container .manuitem ul li a {
+        font-size: 12px;
+    }
     section .vehicle1 .car1 .image_width{
         width: 135px;
         padding-bottom: 0px;
@@ -60,11 +63,27 @@
     #mn .dropdown .logo {
         font-size: 14px;
         margin-left: -24px;
-        margin-top: -9px;
+        margin-top: 0px;
     }
-
+    #manubar .container .logo_img {
+        margin-left: 116px;
+    }
+        #manubar .container .manuitem ul li {
+        margin-right: 60px;
+    }
 }
 @media (min-width: 768px) and (max-width: 991px){
+    #manubar .container .img-fluid {
+        max-width: 70%;
+    }
+    #manubar .container .manuitem ul li a {
+        padding: 0px 8px;
+        font-size: 14px;
+    }
+    #manubar .container .logo_img {
+        width: 200px;
+        line-height: 100px;
+    }
     section nav .container-fluid a .image {
         width: 250px;
         margin-left: 11px;
@@ -120,7 +139,7 @@
     #mn .dropdown .logo {
         font-size: 14px;
         margin-left: -24px;
-        margin-top: -9px;
+        margin-top: 0px;
     }
     
 }
@@ -175,6 +194,10 @@
     }
     .hr-nav-1 .nav-item {
         font-size: 15px;
+    }
+    #mn .dropdown .logo {
+        padding-left: 50px;
+        padding-top: 19px;
     }
 }
 
