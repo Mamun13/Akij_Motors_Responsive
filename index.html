@@ -62,33 +62,49 @@
         </div>
       </div>
     </section>
-    <!-- second  part-->
-    <div class="hr-nav-1">
-      <nav class="nav-container">
-        <div class="dropdown">
-          <a class="dropbtn">
-            <i class="fa-solid fa-bars"></i> Category
-          </a>
-            
-          <div class="dropdown-content">
-              <a href="#">India</a>
-              <a href="#"> USA</a>
-              <a href="#"> England</a>
-              <a href="#"> Brazil</a>
-          </div>
-        </div>
-        <a href="#!" class="nav-item">COMMERCIAL<br> VEHICLE</a>
-          <a href="#!" class="nav-item">PRIVATE<br> VEHICLE</a>
-          <a href="#!" class="nav-item">MOTOR<br> SERVICING</a>
-          <a href="#!" class="nav-item">GARAGE<br> EQUIPMENTS</a>
-          <a href="#!" class="nav-item">SPARE <br>PARTS</a>
-          <a href="#!" class="nav-item">ELECTRIC<br> MOTORCYCLE</a>
-          <a href="#!" class="nav-item">FORKLIFT/STACKER</a>
-          <a href="#!" class="nav-item">CONSTRUCTION<br> MACHINERY</a>
-          <a href="#!" class="nav-item">SPECIAL <br>VEHICLE</a>
-      </nav>
-  </div>
-    <!-- second  part-->
+    <!-- second navbar part-->
+    <header>
+      <section id="mn">
+<!--            <div class="container">-->
+              <div class="row">
+                  <div class="col-lg-2 col-md-4 col-sm-5 p-0">
+                      <div class="dropdown drop_list">
+                          <a class="btn btn-secondary logo" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fa-solid fa-bars"></i>  Category
+                          </a>
+                          <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                            <li><a class="dropdown-item" href="#"><i class="fa-solid fa-house"></i><span> Home</span></a></li>
+                            <li><a class="dropdown-item" href="#"><i class="fa-solid fa-truck-pickup"></i><span> Mini Truck/Pickup</span></a></li>
+                            <li><a class="dropdown-item" href="#"><i class="fa-solid fa-truck"></i><span> Light Duty Truck</span></a></li>
+                            <li><a class="dropdown-item" href="#"><i class="fa-solid fa-truck-monster"></i><span> Medium Duty Truck</span></a></li>
+                            <li><a class="dropdown-item" href="#"><i class="fa-solid fa-truck-moving"></i><span> Heavy Duty Cargo Truck</span></a></li>
+                            <li><a class="dropdown-item" href="#"><i class="fa-solid fa-truck-field"></i><span> Dump Truck/Tripper</span></a></li>
+                            <li><a class="dropdown-item" href="#"><i class="fa-solid fa-truck-container-empty"></i><span> Prime Mover/Trailer</span></a></li>
+                            <li><a class="dropdown-item" href="#"><i class="fa-solid fa-truck-medical"></i><span> Microbus/Ambulance</span></a></li>
+                            <li><a class="dropdown-item" href="#"><i class="fa-solid fa-car-side"></i><span> Speacial Purpose Vehicle</span></a></li>
+                          </ul>
+                        </div>
+                  </div>
+                  <div class="col-lg-10 col-md-8 col-sm-7 p-0 bg-black">
+                      <div class="hr-nav-1">
+                          <nav class="nav-container">
+                            <a href="#!" class="nav-item">COMMERCIAL<br> VEHICLE</a>
+                            <a href="#!" class="nav-item">PRIVATE<br> VEHICLE</a>
+                            <a href="#!" class="nav-item">MOTOR<br> SERVICING</a>
+                            <a href="#!" class="nav-item">GARAGE<br> EQUIPMENTS</a>
+                            <a href="#!" class="nav-item">SPARE <br>PARTS</a>
+                            <a href="#!" class="nav-item">ELECTRIC<br> MOTORCYCLE</a>
+                            <a href="#!" class="nav-item">FORKLIFT/STACKER</a>
+                            <a href="#!" class="nav-item">CONSTRUCTION<br> MACHINERY</a>
+                            <a href="#!" class="nav-item">SPECIAL <br>VEHICLE</a>
+                          </nav>
+                      </div>
+                  </div>
+              </div>
+<!--            </div>-->
+      </section>
+    </header>   
+    <!-- second navbar part-->
     
       <!-- <header id="sec_nav">
         <div class="col-lg-12">
@@ -444,8 +460,27 @@
 
 
 
-    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
-
+<script src="js/bootstrap.bundle.min.js"></script>
+    <script>
+        
+      function myFunction() {
+        document.getElementById("myDropdown").classList.toggle("show");
+      }
+      
+  
+      window.onclick = function(event) {
+        if (!event.target.matches('.dropbtn')) {
+          var dropdowns = document.getElementsByClassName("dropdown-content");
+          var i;
+          for (i = 0; i < dropdowns.length; i++) {
+            var openDropdown = dropdowns[i];
+            if (openDropdown.classList.contains('show')) {
+              openDropdown.classList.remove('show');
+            }
+          }
+        }
+      }
+      </script>
       
   </body>
 </html>
